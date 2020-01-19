@@ -7,5 +7,5 @@ This project followed the following approach:
   1. Scraped ~6k reviews using Selenium to fetch reviews of beers from Beeradvocate.com.
   2. Clean the data using NLTK.
   3. Use spacy similarity to find most relevant reviews related to user selected beer attributes.
-  4. Find sentiment score for all the relevant reviews using ![VADER(Valence Aware Dictionary and sEntiment Reasoner)](https://github.com/cjhutto/vaderSentiment)
+  4. Find sentiment score for all the relevant reviews using [VADER(Valence Aware Dictionary and sEntiment Reasoner)](https://github.com/cjhutto/vaderSentiment)
   5. Recommend the most relevant beers based on user aspired beer attributes
